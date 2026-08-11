@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
-		<dc:identifier id="uid">https://standardebooks.org/ebooks/thomas-mann/bashan-and-i/herman-george-scheffauer</dc:identifier>
-		<dc:date>2020-09-07T17:32:23Z</dc:date>
-		<meta property="dcterms:modified">2020-09-07T17:32:23Z</meta>
+		<dc:identifier id="uid">https://standardebooks.org/ebooks/thomas-mann/short-fiction/various-translators</dc:identifier>
+		<dc:date>1900-01-01T00:00:00Z</dc:date>
+		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
@@ -28,58 +28,104 @@
 		<meta property="schema:accessibilityFeature">unlocked</meta>
 		<meta property="schema:accessibilityHazard">none</meta>
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
-		<dc:title id="title">Bashan and I</dc:title>
-		<meta property="file-as" refines="#title">Bashan and I</meta>
-		<meta property="dcterms:alternative" refines="#title">A Man and His Dog</meta>
-		<dc:subject id="subject-1">Dogs -- Anecdotes</dc:subject>
+		<dc:title id="title">Short Fiction</dc:title>
+		<meta property="file-as" refines="#title">Short Fiction</meta>
+		<dc:subject id="subject-1">SUBJECT_1</dc:subject>
+		<dc:subject id="subject-2">SUBJECT_2</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">sh2008102348</meta>
-		<meta property="schema:genre">Nonfiction</meta>
-		<meta property="schema:abstract">A renowned novelist describes the unique relation that links him to his dog.</meta>
+		<meta property="term" refines="#subject-1">SUBJECT_1_LCSH_ID</meta>
+		<meta property="authority" refines="#subject-2">LCSH</meta>
+		<meta property="term" refines="#subject-2">SUBJECT_2_LCSH_ID</meta>
+		<meta property="schema:genre">Fiction</meta>
+		<meta property="se:is-a-collection">true</meta>
+		<meta property="schema:abstract">ABSTRACT</meta>
 		<dc:description>
-			&lt;p&gt;In &lt;i&gt;Bashan and I&lt;/i&gt; (sometime referred to as &lt;i&gt;Man and Dog&lt;/i&gt;), &lt;a href="https://standardebooks.org/ebooks/thomas-mann"&gt;Thomas Mann&lt;/a&gt;, the Nobel Prize-winning author of &lt;i&gt;The Magic Mountain&lt;/i&gt; and &lt;i&gt;Death in Venice&lt;/i&gt;, writes in the most remarkable way of the unique relation that links a dog with his master. These memoirs read as a novel, and describe in fierce detail the behavior, feelings and psychology of Mann’s dog Bashan, and of Mann himself. Mann tells how he acquired Bashan, details traits of his character, and describes how they go on harmless and bucolic hunts.&lt;/p&gt;
-			&lt;p&gt;Written in 1918 at the end of the First World War, &lt;i&gt;Bashan and I&lt;/i&gt; is an ode to life, to nature, to simple joys, and to a dog.&lt;/p&gt;
+			DESCRIPTION
 		</dc:description>
 		<dc:language>en-GB</dc:language>
+		<!--Tristan (German 1903, translation 1924) -->
+		<dc:source>https://archive.org/details/deathinvenice0000thom_f9a3</dc:source>
+		<!-- Bashan and I (German 1918, translation 1923) -->
 		<dc:source>https://www.gutenberg.org/ebooks/61284</dc:source>
 		<dc:source>https://archive.org/details/bashan01tm</dc:source>
-		<meta property="schema:wordCount">38152</meta>
-		<meta property="schema:educationalLevel">61.29</meta>
-		<link href="https://en.wikipedia.org/wiki/A_Man_and_His_Dog_(narrative)" rel="schema:sameAs"/>
+		<!-- Mario and the Magician (German 1930, translation 1930) -->
+		<dc:source>https://www.fadedpage.com/showbook.php?pid=20210546</dc:source>
+		<dc:source>https://hdl.handle.net/2027/inu.32000003235852</dc:source>
+		<meta property="schema:wordCount">WORD_COUNT</meta>
+		<meta property="schema:educationalLevel">READING_EASE</meta>
+		<link href="EBOOK_WIKI_URL" rel="schema:sameAs"/>
 		<meta id="vcs-repository" property="schema:workExample">schema:workExample</meta>
 		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
-		<link href="https://github.com/standardebooks/thomas-mann_bashan-and-i_herman-george-scheffauer" refines="#vcs-repository" rel="schema:codeRepository"/>
+		<link href="https://github.com/standardebooks/thomas-mann_short-fiction_various-translators" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Thomas Mann</dc:creator>
 		<meta property="file-as" refines="#author">Mann, Thomas</meta>
 		<meta property="schema:alternateName" refines="#author">Paul Thomas Mann</meta>
 		<link href="https://en.wikipedia.org/wiki/Thomas_Mann" refines="#author" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n78095625.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="translator">Herman George Scheffauer</dc:contributor>
-		<meta property="file-as" refines="#translator">Scheffauer, Herman George</meta>
-		<link href="https://en.wikipedia.org/wiki/Herman_George_Scheffauer" refines="#translator" rel="schema:sameAs"/>
-		<link href="https://id.loc.gov/authorities/names/n50057101.html" refines="#translator" rel="schema:sameAs"/>
-		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
-		<meta property="role" refines="#translator" scheme="marc:relators">wfw</meta>
-		<dc:contributor id="artist">Jean-Baptiste Oudry</dc:contributor>
-		<meta property="file-as" refines="#artist">Oudry, Jean-Baptiste</meta>
-		<link href="https://en.wikipedia.org/wiki/Jean-Baptiste_Oudry" refines="#artist" rel="schema:sameAs"/>
-		<link href="https://id.loc.gov/authorities/names/n83010715.html" refines="#artist" rel="schema:sameAs"/>
+		<dc:contributor id="translator-1">Kenneth Burke</dc:contributor>
+		<meta property="file-as" refines="#translator-1">Burke, Kenneth</meta>
+		<meta property="schema:alternateName" refines="#translator-1">Kenneth Duva Burke</meta>
+		<link href="https://en.wikipedia.org/wiki/Kenneth_Burke" refines="#translator-1" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n50032315.html" refines="#translator-1" rel="schema:sameAs"/>
+		<meta property="role" refines="#translator-1" scheme="marc:relators">trl</meta>
+		<dc:contributor id="translator-2">Herman George Scheffauer</dc:contributor>
+		<meta property="file-as" refines="#translator-2">Scheffauer, Herman George</meta>
+		<link href="https://en.wikipedia.org/wiki/Herman_George_Scheffauer" refines="#translator-2" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n50057101.html" refines="#translator-2" rel="schema:sameAs"/>
+		<meta property="role" refines="#translator-2" scheme="marc:relators">trl</meta>
+		<dc:contributor id="translator-3">H. T. Lowe-Porter</dc:contributor>
+		<meta property="file-as" refines="#translator-3">Lowe-Porter, H. T.</meta>
+		<meta property="schema:alternateName" refines="#translator-3">Helen Tracy Lowe-Porter</meta>
+		<link href="https://en.wikipedia.org/wiki/Helen_Tracy_Lowe-Porter" refines="#translator-3" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n50040385.html" refines="#translator-3" rel="schema:sameAs"/>
+		<meta property="role" refines="#translator-3" scheme="marc:relators">trl</meta>
+		<dc:contributor id="artist">Ludwig von Hofmann</dc:contributor>
+		<meta property="file-as" refines="#artist">von Hofmann, Ludwig</meta>
+		<link href="https://en.wikipedia.org/wiki/Ludwig_von_Hofmann" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n83222939.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Anonymous</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">Anonymous</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">Anonymous</dc:contributor>
+		<dc:contributor id="transcriber-2">Laura Natal Rodrigues</dc:contributor>
+		<meta property="file-as" refines="#transcriber-2">Natal Rodrigues, Laura</meta>
+		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-3">Delphine Lettau</dc:contributor>
+		<meta property="file-as" refines="#transcriber-3">Lettau, Delphine</meta>
+		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-4">Al Haines</dc:contributor>
+		<meta property="file-as" refines="#transcriber-4">Haines, Al</meta>
+		<meta property="role" refines="#transcriber-4" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-5">John Routh</dc:contributor>
+		<meta property="file-as" refines="#transcriber-5">Routh, John</meta>
+		<meta property="role" refines="#transcriber-5" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-6">Distributed Proofreaders</dc:contributor>
+		<meta property="file-as" refines="#transcriber-6">Distributed Proofreaders</meta>
+		<link href="https://www.pgdp.net/" refines="#transcriber-6" rel="schema:url"/>
+		<meta property="role" refines="#transcriber-6" scheme="marc:relators">trc</meta>
+		<dc:contributor id="transcriber-7">Distributed Proofreaders Canada</dc:contributor>
+		<meta property="file-as" refines="#transcriber-7">Distributed Proofreaders Canada</meta>
+		<meta property="se:url.homepage" refines="#transcriber-7">https://www.pgdpcanada.net/</meta>
+		<meta property="role" refines="#transcriber-7" scheme="marc:relators">trc</meta>
+		<dc:contributor id="producer-1">Robin Whittleton</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Whittleton, Robin</meta>
+		<link href="https://www.robinwhittleton.com/" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
+		<meta property="role" refines="#producer-1" scheme="marc:relators">trc</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
-		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
-		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
-		<link href="https://alexcabal.com/" refines="#producer-2" rel="schema:url"/>
+		<dc:contributor id="producer-2">Anonymous</dc:contributor>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">bkp</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-3">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-3">Cabal, Alex</meta>
+		<link href="https://alexcabal.com/" refines="#producer-3" rel="schema:url"/>
+		<meta property="role" refines="#producer-3" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
