@@ -30,18 +30,30 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<dc:title id="title">Short Fiction</dc:title>
 		<meta property="file-as" refines="#title">Short Fiction</meta>
-		<dc:subject id="subject-1">SUBJECT_1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT_2</dc:subject>
+		<dc:subject id="subject-1">Psychological fiction, German</dc:subject>
+		<dc:subject id="subject-2">Middle-aged men--Fiction</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">SUBJECT_1_LCSH_ID</meta>
+		<meta property="term" refines="#subject-1">sh85108439</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">SUBJECT_2_LCSH_ID</meta>
+		<meta property="term" refines="#subject-2">sh2008107221</meta>
 		<meta property="schema:genre">Fiction</meta>
 		<meta property="schema:genre">Shorts</meta>
+		<meta id="collection-1" property="belongs-to-collection">Encyclopædia Britannica’s Great Books of the Western World</meta>
+		<meta property="collection-type" refines="#collection-1">set</meta>
+		<meta id="collection-1-entry-1" property="schema:hasPart" refines="#collection-1">schema:hasPart</meta>
+		<meta property="rdf:type" refines="#collection-1-entry-1">http://schema.org/CreativeWork</meta>
+		<meta property="schema:name" refines="#collection-1-entry-1">Death in Venice</meta>
+		<meta id="collection-2" property="belongs-to-collection">Encyclopædia Britannica’s Gateway to the Great Books</meta>
+		<meta property="collection-type" refines="#collection-2">set</meta>
+		<meta id="collection-2-entry-1" property="schema:hasPart" refines="#collection-2">schema:hasPart</meta>
+		<meta property="rdf:type" refines="#collection-2-entry-1">http://schema.org/CreativeWork</meta>
+		<meta property="schema:name" refines="#collection-2-entry-1">Mario and the Magician</meta>
 		<meta property="schema:additionalType">http://schema.org/Collection</meta>
-		<meta property="schema:abstract">ABSTRACT</meta>
+		<meta property="schema:abstract">A collection of Thomas Mann’s short stories, ordered by date of their original publication.</meta>
 		<dc:description>
-			DESCRIPTION
+			&lt;p&gt;While it was &lt;a href="https://standardebooks.org/ebooks/thomas-mann"&gt;Thomas Mann’s&lt;/a&gt; longer work &lt;a href="https://standardebooks.org/ebooks/thomas-mann/buddenbrooks/h-t-lowe-porter"&gt;&lt;i&gt;Buddenbrooks&lt;/i&gt;&lt;/a&gt; that established his fame, he was already a published author of short fiction, primarily in the satirical magazine &lt;i&gt;Simplicissimus&lt;/i&gt;.&lt;/p&gt;
+			&lt;p&gt;A typical Mann short story always has some element of psychological disquiet. Earlier in his career this often manifested in behaviours that caused ridicule to the protagonists (“Little Louise,” “The Path to the Cemetery”) but this evolved into characters that combine extrasocietal behaviour with a seeming inability to halt their progress into chaos (“Death in Venice,” “Mario and the Magician”). Woven through this are common themes: the secret world of children, the social mores of Wilhelmine Germany, and a love of dogs.&lt;/p&gt;
+			&lt;p&gt;This collection includes many of Mann’s best known works. Particularly famous is “Death in Venice,”—the candidly autobiographical story of a staid author becoming obsessed with a beautiful boy—which the &lt;i&gt;Encyclopædia Britannica&lt;/i&gt; included in its &lt;a href="https://standardebooks.org/collections/encyclopaedia-britannicas-great-books-of-the-western-world"&gt;“Great Books of the Western World”&lt;/a&gt; set.&lt;/p&gt;
 		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<!-- Tristan / Tonio Kröger (German 1903, translation 1924) -->
